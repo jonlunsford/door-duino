@@ -1,0 +1,27 @@
+/* /////////////////////////////////////////////////////
+
+UTILS
+General CSS utilities and SASS mixins
+
+///////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////
+
+GOOD COMPASS MIXINS TO KNOW ABOUT
+
+image-width($image)
+image-height($image)
+image-url($image)
+
+replace-text($img, $x, $y)
+hide-text() 
+  @import "compass/typography/text/replacement";
+  
+inline-block
+  @import "compass/css3/inline-block";
+
+opacity($opacity)
+  @import "compass/css3/opacity"
+
+///////////////////////////////////////////////////// */
