@@ -8,3 +8,29 @@ MODULES
 // Put a comment description before each module
 
 ///////////////////////////////////////////////////// */
+
+#main-alert {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 49px;
+  padding-top: 251px;
+
+  &.negative {
+    background: rgb(216, 71, 71);
+  }
+
+  &.positive {
+     background: rgb(71, 216, 123);
+  }
+
+  &.info {
+    background: rgb(71, 141, 216);
+  }
+
+  &.warning {
+    background: rgb(224, 224, 41);
+  }
+}

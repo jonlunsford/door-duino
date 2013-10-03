@@ -1,14 +1,16 @@
 %html
   %head
-    %script{src: '//js.pusher.com/1.12/pusher.min.js'}
-    %script{src: '/js/jquery.js'}
-    %script{src: '/js/jquery-ui.js'}
     %link{href: '//fonts.googleapis.com/css?family=Stalinist+One', rel: 'stylesheet', type: 'text/css'}
     %link{href: '/css/main.css', rel: 'stylesheet', type: 'text/css'}
 
   %body
-    .row-fluid.game-off{style: "display: block; margin-top: 100px"}
-      #launch-button.button.green.hero-unit.span10.offset1
-        %h1.bold Launch!
-    .row-fluid
-      #count.hero-unit.span10.offset1
+    #main-alert.info
+      All is well...
+    / %button.notify.btn-full-size.btn-negative 
+    /   Notify
+
+    %script{src: '//js.pusher.com/1.12/pusher.min.js'}
+    %script{src: '/js/jquery.js'}
+    %script{src: '/js/jquery-ui.js'}
+    %script{src: '/js/main.js'}
+
